@@ -4,9 +4,12 @@ body {
 .slider{
 width:300px;
 overflow:hidden;
-height: 300px;
-}
 
+}
+.slider-inner{
+	width: 99999999px;
+	transition: all 0.5s;
+}
 .slider-inner img{
 	float: left;
 	width:300px;
